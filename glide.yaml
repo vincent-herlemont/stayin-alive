@@ -1,2 +1,19 @@
 package: github.com/vincent-herlemont/stayin-alive
-import: []
+import:
+- package: github.com/urfave/cli.git
+  version: ^1.20.0
+- package: github.com/gorilla/mux
+  version: ^1.6.2
+- package: github.com/go-yaml/yaml.git
+  version: ^2.2.1
+- package: github.com/sirupsen/logrus.git
+  version: ^1.0.5
+- package: github.com/gorilla/handlers.git
+  version: ^1.3.0
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+- package: github.com/gorilla/http

@@ -1,0 +1,27 @@
+hash: 2cae49dc9957813ff00df1bc9876259c86e0cbe276edbb25aedd90b030a2576a
+updated: 2018-05-19T18:59:16.960135027+02:00
+imports:
+- name: github.com/go-yaml/yaml.git
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/handlers.git
+  version: 90663712d74cb411cbef281bc1e08c19d1a76145
+- name: github.com/gorilla/http
+  version: 5dff1c014197bd33cbefc3ff9de164ada759b81b
+- name: github.com/gorilla/mux
+  version: e3702bed27f0d39777b0b37b664b6280e8ef8fbf
+- name: github.com/sirupsen/logrus.git
+  version: c155da19408a8799da419ed3eeb0cb5db0ad5dbc
+- name: github.com/urfave/cli.git
+  version: cfb38830724cc34fedffe9a2a29fb54fa9169cd1
+- name: golang.org/x/crypto
+  version: 2d027ae1dddd4694d54f7a8b6cbe78dca8720226
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 7c87d13f8e835d2fb3a70a2912c811ed0c1d241b
+  subpackages:
+  - unix
+  - windows
+testImports: []
